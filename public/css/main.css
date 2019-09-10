@@ -150,7 +150,8 @@ a:focus {
 
 .tm-hero-title {
     font-size: 3.5rem;
-    text-shadow: 2px 2px 2px #333;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px #333;
 }
 
 .tm-intro-next {
@@ -272,10 +273,10 @@ a:focus {
 }
 
 .grid figure figcaption {
-    padding: 2em;
+    padding: 0em;
     color: #fff;
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 0.5em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -305,8 +306,8 @@ a:focus {
 }
 
 .grid figure h2 {
-    word-spacing: -0.15em;
-    font-weight: 300;
+    word-spacing: 0em;
+    font-weight: 200;
 }
 
 .grid figure h2 span {
@@ -358,7 +359,7 @@ figure.effect-honey h2 {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 1em 1.5em;
+    padding: 1em 1em;
     width: 100%;
     text-align: left;
     -webkit-transform: translate3d(0, -30px, 0);
@@ -721,7 +722,7 @@ section#work p.tm-work-description {
     color: #ffab91;
 }
 
-#booking .tm-contact-item span.click-book:hover i {
+#booking .tm-contact-item span.click-book:hover {
     color: #8f8f8f;
 }
 
@@ -869,4 +870,10 @@ table{
     #booking .giv-call h1 {
     width: 55%;
     }
+}
+
+p.tm-hero-subtitle{
+    letter-spacing: 5px;
+    font-weight: 200;
+    text-shadow: 1.9px 0.9px 0.9px #333;
 }
