@@ -1,753 +1,614 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html lang="en">
 
 <head>
-  <!-- Site Title-->
-  <title>Home</title>
-  <meta name="format-detection" content="telephone=no">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta charset="utf-8">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <!-- Stylesheets -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald:200,400%7CLato:300,400,300italic,700%7CMontserrat:900">
-  <link rel="stylesheet" href="/css/style2.css">
-  <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/fonts.css">
-  <link rel="stylesheet" href="/css/style1.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" type="text/css">
-  <link href="/css/calender.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>A R L O R S</title>
+    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"> </script>
-		<![endif]-->
+
+    <!--    table css-->
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 86vw;
+        }
+
+        td,
+        th {
+            border: 1px solid #ffccbc;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffccbc;
+        }
+
+    </style>
 </head>
 
 <body>
-  <!-- Page preloader-->
-  <div class="page-loader">
-    <div class="page-loader-body">
-      <div class="preloader-wrapper big active">
-        <div class="spinner-layer spinner-blue">
-          <div class="circle-clipper left">
-            <div class="circle"> </div>
-          </div>
-          <div class="gap-patch">
-            <div class="circle"> </div>
-          </div>
-          <div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-        <div class="spinner-layer spinner-red">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div>
-          <div class="gap-patch">
-            <div class="circle"> </div>
-          </div>
-          <div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-        <div class="spinner-layer spinner-yellow">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div>
-          <div class="gap-patch">
-            <div class="circle"></div>
-          </div>
-          <div class="circle-clipper right">
-            <div class="circle"> </div>
-          </div>
-        </div>
-        <div class="spinner-layer spinner-green">
-          <div class="circle-clipper left">
-            <div class="circle"></div>
-          </div>
-          <div class="gap-patch">
-            <div class="circle"></div>
-          </div>
-          <div class="circle-clipper right">
-            <div class="circle"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Page-->
-  <div class="page">
-    <!--     <a class="section section-banner text-center d-none d-xl-block" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"><img src="images/banner/foreground-04-1600x60.png" srcset="images/banner/foreground-04-1600x60.png 1x, images/banner/foreground-04-3200x120.png 2x" alt="" width="1600" height="310"></a>-->
-    <!-- Page Header-->
-    <header class="section page-header">
-      <!-- RD Navbar-->
-      <div class="rd-navbar-wrap rd-navbar-corporate">
-        <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-xl-layout="rd-navbar-static"
-          data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-md-stick-up-offset="130px" data-lg-stick-up-offset="100px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true"
-          data-xl-stick-up="true">
-          <div class="rd-navbar-collapse-toggle" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+    <!-- Hero section -->
+    <section id="hero" class="text-white tm-font-big tm-parallax" >
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">
+            <div class="container">
+                <div class="tm-next">
+                    <a href="#hero" class="navbar-brand">A R L O R S</a>
+                </div>
 
-          <!--
-            <div class="rd-navbar-top-panel rd-navbar-collapse novi-background">
-              <div class="rd-navbar-top-panel-inner">
-                <ul class="list-inline">
-
-                  <li class="box-inline list-inline-item">
-                    <ul class="list-comma log-sign-button">
-                      <li><a class="button button-sm button-nina login-button" href="login.html">login</a></li>
-                      <li></li>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link tm-nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-nav-link" href="#gwork">Our Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link tm-nav-link" href="#contact">Contact Us</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-map-marker"></span><a href="#">2130 Fulton Street, San Diego, CA 94117-1080 USA</a></li>
-                  <li class="box-inline list-inline-item"><span class="icon novi-icon icon-md-smaller icon-secondary mdi mdi-email"></span><a href="mailto:#">mail@demolink.org</a></li>
-                </ul>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-facebook" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-twitter" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-instagram" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-google-plus" href="#"></a></li>
-                  <li class="list-inline-item"><a class="icon novi-icon icon-sm-bigger icon-gray-1 mdi mdi-linkedin" href="#"></a></li>
-                </ul>
-              </div>
+                </div>
             </div>
--->
-
-
-          <div class="rd-navbar-inner">
-            <!-- RD Navbar Panel-->
-            <div class="rd-navbar-panel">
-              <!-- RD Navbar Toggle-->
-              <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-              <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand">
-                <a class="brand-name" href="index.html">
-
-
-                  <img class="logo-default" src="images/quickecab-logo.png" alt="" width="100px" height="26px" />
-                  <!--                            <img class="logo-inverse" src="images/logo-inverse-208x46.png" alt="" width="208" height="46" />-->
-
-                </a>
-              </div>
-            </div>
-            <div class="rd-navbar-aside-center">
-              <div class="rd-navbar-nav-wrap">
-                <!-- RD Navbar Nav-->
-                <ul class="rd-navbar-nav">
-                  <li class="active"><a href="index.html">Home</a>
-                  </li>
-                  <li><a href="about-us.html">About Us</a>
-                  </li>
-                  <li><a href="contacts.html">Contacts</a>
-                  </li>
-
-                  <!--
-                                    <div class="log-sign-button" id="header-log">
-                                       <div class="rd-navbar-aside-right login-button"><a class="button button-sm button-nina " href="#">logout</a></div>
-                                        <div class="rd-navbar-aside-right login-button"><a class="button button-sm button-nina " href="login.html">login</a></div>
-                                        <div class="rd-navbar-aside-right signup-button"><a class="button button-sm button-secondary button-nina " href="signup.html">signUP</a></div>
-                                    </div>
--->
-                  <!--
-                                    <li><a href="typography.html">Typography</a>
-                                    </li>
--->
-                </ul>
-              </div>
-            </div>
-            <div class="log-sign-button">
-              <h6 class="username">Howdy, rohit prajapati</h6>
-              <div class="rd-navbar-aside-right logout-button"><a class="button button-sm button-nina " href="#">logout</a></div>
-              <!--
-                            <div class="rd-navbar-aside-right login-button"><a class="button button-sm button-nina " href="login.html">login</a></div>
-                            <div class="rd-navbar-aside-right signup-button"><a class="button button-sm button-secondary button-nina " href="signup.html">signUP</a></div>
--->
-            </div>
-
-
-          </div>
         </nav>
-      </div>
-    </header>
-    <section class="section">
-      <div class="swiper-form-wrap">
-        <!-- Swiper-->
-        <div class="swiper-container swiper-slider swiper-slider_height-1 swiper-align-left swiper-align-left-custom context-dark bg-gray-darker" data-loop="false" data-autoplay="5500" data-simulate-touch="false" data-slide-effect="fade">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" data-slide-bg="images/background11.jpeg">
-              <div class="swiper-slide-caption">
-                <div class="container container-bigger swiper-main-section">
-                  <div class="row row-fix justify-content-sm-center justify-content-md-start">
-                    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
-                      <h3>Hundreds of Amazing Destinations</h3>
-                      <div class="divider divider-decorate"></div>
-                      <p class="text-spacing-sm">We offer a variety of destinations to travel to, ranging from exotic to some extreme ones. They include very popular countries and cities like Paris, Rio de Janeiro, Cairo and a lot of others.</p>
-                      <!--                                            <a class="button button-default-outline button-nina button-sm" href="#">learn more</a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+        <div class="text-center tm-hero-text-container">
+            <div class="tm-hero-text-container-inner">
+                <h2 class="tm-hero-title">A R L O R S</h2>
+                <p class="tm-hero-subtitle">
+                    G E T &nbsp; T H E &nbsp; P E R F E C T &nbsp; F I T
+                </p>
             </div>
-            <div class="swiper-slide" data-slide-bg="images/background10.jpeg">
-              <div class="swiper-slide-caption">
-                <div class="container container-bigger swiper-main-section">
-                  <div class="row row-fix justify-content-sm-center justify-content-md-start">
-                    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
-                      <h3>The Trip of Your Dream</h3>
-                      <div class="divider divider-decorate"></div>
-                      <p class="text-spacing-sm">Our travel agency is ready to offer you an exciting vacation that is designed to fit your own needs and wishes. Whether it’s an exotic cruise or a trip to your favorite resort, you will surely have the
-                        best experience.</p>
-                      <!--                                            <a class="button button-default-outline button-nina button-sm" href="#">learn more</a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/background9.jpeg">
-              <div class="swiper-slide-caption">
-                <div class="container container-bigger swiper-main-section">
-                  <div class="row row-fix justify-content-sm-center justify-content-md-start">
-                    <div class="col-md-6 col-lg-5 col-xl-4 col-xxl-5">
-                      <h3>unique Travel Insights</h3>
-                      <div class="divider divider-decorate"></div>
-                      <p class="text-spacing-sm">Our team is ready to provide you with unique weekly travel insights that include photos, videos, and articles about untravelled tourist paths. We know everything about the places you’ve never been to!
-                      </p>
-                      <!--                                            <a class="button button-default-outline button-nina button-sm" href="#">learn more</a>-->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Swiper controls-->
-          <div class="swiper-pagination-wrap">
-            <div class="container container-bigger">
-              <div class="row">
-                <div class="col-sm-12">
-                  <div class="swiper-pagination"></div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="container container-bigger form-request-wrap form-request-wrap-modern formie">
-          <div class="row row-fix justify-content-sm-center justify-content-lg-end">
-            <div class="col-lg-6 col-xxl-5">
-              <div class="form-request form-request-modern bg-gray-lighter novi-background actual-form">
-                <nav>
-                  <div class="nav nav-tabs formy" id="nav-tab" role="tablist">
 
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Outstation</a>
+        <div class="tm-next tm-intro-next">
+            <a href="#pricing" class="text-center tm-down-arrow-link">
+                <i class="fas fa-3x fa-caret-down tm-down-arrow"></i>
+            </a>
+        </div>
+    </section>
 
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">DailyRide</a>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <form action="/action_page.php">
-                      <div class="container">
-                        <h1>Let's Travel</h1>
-                        <!--<p>Please fill in this form to book your desired car</p>-->
+    <section id="pricing" class="tm-section-pad-top">
+        <div class="container">
+                    
+                <div class="col-lg-6">
+                    <div class="tm-intro-text-container">
+                        <h2 class="tm-text-primary mb-4 tm-section-title" style="color: #ffab91;">Pricing</h2>
+                        <div class="table">
+                            <ul class="nav nav-pills mb-3 price-category" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#basic" role="tab" aria-controls="pills-home" aria-selected="true">BASIC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#designer" role="tab" aria-controls="pills-profile" aria-selected="false">DESIGNER</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content price-table" id="pills-tabContent">
+                                <div class="tab-pane fade show active tm-section-pad-top" id="basic" role="tabpanel" aria-labelledby="pills-home-tab">
 
-                        <div class="nav nav-tabs formy" id="nav-tab" role="tablist">
 
-                          <a class="nav-item nav-link active way" id="nav-home-twoway-tab " data-toggle="tab" href="#nav-home-oneway" role="tab" aria-controls="nav-home" aria-selected="true">Two way</a>
-
-                          <a class="nav-item nav-link way" id="nav-home-oneway-tab" data-toggle="tab" href="#nav-profile-twoway" role="tab" aria-controls="nav-profile" aria-selected="false">One way</a>
-                        </div>
-                        <div class="tab-content" id="nav-tabContent">
-
-                          <div class="tab-pane fade show active" id="nav-home-oneway" role="tabpanel" aria-labelledby="nav-home-twoway-tab">
-                            <form action="outstation/oneway" method="post">
-                              <div class="form-blocks">
-                                <label for="pickup"><b>Pickup</b></label>
-                                <input type="text" id="search" placeholder="Enter Pickup location" name="email" required>
-                              </div>
-
-                              <div class="form-blocks">
-                                <label for="drop"><b>Drop</b></label>
-                                <input type="text" id="search" placeholder="Enter Drop Location" name="psw" required>
-                                <div class="ride-dates">
-                                  <div class="pickup-ride dates">
-                                    <label for="date">Pickup</label>
-                                    <!--                                                            <input type="date" placeholder="select starting date of trip" name="date" required>-->
-                                    <input id="input" />
-                                    <script>
-                                      $('#input').datetimepicker({
-                                        footer: true,
-                                        modal: true
-                                      });
-                                    </script>
-                                  </div>
-                                  <div class="return-ride dates">
-                                    <label for="date">Return</label>
-                                    <!--                                                    <input type="date" placeholder="select starting date of trip" name="date" required>-->
-                                    <input id="inputdate" />
-                                    <script>
-                                      $('#inputdate').datetimepicker({
-                                        footer: true,
-                                        modal: true
-                                      });
-                                    </script>
-
-                                  </div>
-                                </div>
-                              </div>
-                              <br>
-                              <button type="submit" class="registerbtn">Search Cabs</button>
-                            </form>
-                          </div>
-                          <div class="tab-pane fade" id="nav-profile-twoway" role="tabpanel" aria-labelledby="nav-home-oneway-tab">
-                            <form action="outstation/twoway">
-                              <div class="form-blocks">
-                                <label for="pickup"><b>Pickup</b></label>
-                                <input type="text" id="search" placeholder="Enter Pickup location" name="email" required>
-                              </div>
-
-                              <div class="form-blocks">
-                                <label for="drop"><b>Drop</b></label>
-                                <input type="text" id="search" placeholder="Enter Drop Location" name="psw" required>
-                                <div class="ride-dates">
-                                  <div class="pickup-ride dates">
-                                    <label for="date">Pickup</label>
-                                    <!--                                                            <input type="date" placeholder="select starting date of trip" name="date" required>-->
-                                    <input id="inputpickups" />
-                                    <script>
-                                      $('#inputpickups').datetimepicker({
-                                        footer: true,
-                                        modal: true
-                                      });
-                                    </script>
-                                  </div>
-                                  <!--
-                                                        <div class="return-ride dates">
-                                                            <label for="date">Return</label>
-                                                            <input id="inputdate" />
-                                                            <script>
-                                                                $('#inputdate').datetimepicker({
-                                                                    footer: true,
-                                                                    modal: true
-                                                                });
-                                                            </script>
-
-                                                        </div>
+                                    <table>
+                                        <tr>
+                                            <th>Garments</th>
+                                            <th>Without lining</th>
+                                            <th>With lining</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Suit With Salwar</td>
+                                            <td>250</td>
+                                            <td>320</td>
+                                        </tr>
+<!--
+                                        <tr>
+                                            <td>Suit With Cigarette Pant</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                        </tr>
 -->
-
-
-
+<!--
+                                        <tr>
+                                            <td>Suit With Palazzo</td>
+                                            <td>250</td>
+                                            <td>320</td>
+                                        </tr>
+-->
+<!--
+                                        <tr>
+                                            <td>Patiala Suit</td>
+                                            <td>300</td>
+                                            <td>380</td>
+                                        </tr>
+-->
+                                       <tr>
+                                            <td>kurti</td>
+                                            <td>199</td>
+                                            <td>240</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blouse</td>
+                                            <td>180</td>
+                                            <td>230</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Petticoat</td>
+                                            <td>129</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saree Fall pico</td>
+                                            <td>129</td>
+                                            <td></td>
+                                        </tr>
+                                        
+                                        
+                                    </table>
                                 </div>
-                              </div>
-                              <br>
-                              <button type="submit" class="registerbtn">Search Cabs</button>
-                            </form>
-                          </div>
-
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <form action="/action_page.php">
-                      <div class="container">
-                        <h1>Let's Travel</h1>
-                        <!--<p>Please fill in this form to book your desired car</p>-->
-                        <hr>
-                        <div class="form-blocks">
-                          <label for="pickup"><b>Pickup</b></label>
-                          <input type="text" id="search" placeholder="Enter Pickup location" name="email" required>
-                        </div>
-                        <div class="form-blocks">
-                          <label for="drop"><b>Drop</b></label>
-                          <input type="text" id="search" placeholder="Enter Drop Location" name="psw" required>
-                          <div class="ride-dates">
-                            <div class="pickup-ride-dates">
-                              <label for="date">Pickup</label>
-                              <!--                                                            <input type="date" placeholder="select starting date of trip" name="date" required>-->
-                              <input id="inputdates" />
-                              <script>
-                                $('#inputdates').datetimepicker({
-                                  footer: true,
-                                  modal: true
-                                });
-                              </script>
+                                <div class="tab-pane fade" id="designer" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                   <table>
+                                    <tr>
+                                            <th>Garments</th>
+                                            <th>Without lining</th>
+                                            <th>With lining</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Designer Blouse</td>
+                                            <td>230</td>
+                                            <td>280</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Designer kurti</td>
+                                            <td>249</td>
+                                            <td>299</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Designer Suit With Salwar</td>
+                                            <td>299</td>
+                                            <td>380</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Designer Suit With Cigarette Pant</td>
+                                            <td>299</td>
+                                            <td>390</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Designer Suit With Palazzo</td>
+                                            <td>299</td>
+                                            <td>390</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Patiala Suit</td>
+                                            <td>299</td>
+                                            <td>390</td>
+                                        </tr>                                        
+                                    </table>
+                                </div>
                             </div>
-                            <!--
-                                                        <div class="return-ride-dates">
-                                                            <label for="date">Return Date</label>
-                                                            <input type="date" placeholder="select starting date of trip" name="date" required>
-
-                                                        </div>
--->
-                          </div>
                         </div>
-                        <br>
-                        <button type="submit" class="registerbtn">Search Cabs</button>
-                      </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <!--    booking-->
+    <section id="booking">
+        <div class="booking">
+           <div class="giv-call">
+               <h1 class="call">
+                   Hey <br>
+                   Give A Call To Book <br>
+                   Now <br>
+                  
+               </h1>
+           </div>
+<!--           col-sm-12 col-md-6 d-flex align-items-center-->
+            <div class=" tm-contact-item " >
+                <a href="tel:9599923968" class="tm-contact-item-link" >
+<!--
+                    <i class="fas fa-3x fa-phone mr-4"></i>
+                    <span class="mb-0">+91 95-999-23968</span>
+-->
+               <span class="click-book">
+                   <p>Click to Book <i class="fas fa-phone" ></i></p> 
+               </span>
+                </a>
+<!--                <span><h1>24*7</h1> <h4><br>Book Anytime <br>Book Anywhere</h4></span>-->
+            </div>
+        </div>
+    </section>
+
+    <!--    just for gap-->
+    <div id="about"></div>
+
+    <div id="aboutus" style="background-color: #ffab91">
+        <div class="row tm-section-pad-top">
+            <div class="col-lg-4">
+                <!--                        <i class="fas fa-4x fa-bus text-center tm-icon"></i>-->
+                <img class="aboutus-img" src="img/pickup.png" alt="" height="120px">
+                <h4 class="text-center tm-text-primary mb-4">Picked</h4>
+                <p>
+                    Our executive will reach you at the given location and will pick the cloth to be stitched and will take the measurements required.
+                </p>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!--                        <i class="fas fa-4x fa-bicycle text-center tm-icon"></i>-->
+                <img class="aboutus-img" src="img/electric-sewing-machine.svg" alt="" height="120px">
+                <h4 class="text-center tm-text-primary mb-4">Stitched</h4>
+                <p>
+                    Then our Experienced tailors will do the stitching work as per the measurements to meet your requirements.
+                </p>
+            </div>
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!--                        <i class="fas fa-4x fa-city text-center tm-icon"></i>-->
+                <img class="aboutus-img" src="img/pickup-truck.svg" alt="" height="120px">
+                <h4 class="text-center tm-text-primary mb-4">Delivered</h4>
+                <p>
+                    Finally, Our delivery agents will deliver the stitched garment at your desired location, in the specified time.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    app coming soon-->
+    <div id="app">
+        <div class="m-app">
+            <div class="mobile-app">
+                <div class="phone">
+                    <img src="img/PHONE1.png" alt="" height="350px">
+                </div>
+                
+                    <div class="appstore">
+                        <h2 class="comingsoon"> Coming Soon</h2>
+                        <a href="#" class="download-link"><img src="img/google-play-badge.png" alt="" class="android"></a>
+                        <a href="#" class="download-link"><img src="img/ios.png" alt="" class="ios"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--    just for gap-->
+    <div id="gwork" style="height: 50px"></div>
+
+    <section id="work" class="tm-section-pad-top">
+        <div class="container tm-container-gallery">
+            <div class="row">
+                <div class="text-center col-12">
+                    <h2 class="tm-text-primary tm-section-title mb-4">Our Work</h2>
+                    <p class="mx-auto tm-work-description">
+                        " With now a <strong>100's</strong> of happy customer, we are constantly improving our services and building great bond with our Customer's "
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="mx-auto tm-gallery-container">
+                        <div class="grid tm-gallery">
+                            <a href="#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/workimage1.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Designer <span>Blouse</span><br></i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/workimage2.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Indian <br>Designer<span><br>Suit</span></i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/workimage3.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>fall <span>Pico</span></i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/nampic2.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Indian<span><br>Suit</span> </i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="img/#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/workimage4.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Classic<span><br>blouse</span></i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="#">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/workimage7.jpeg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Regular<span><br>Suit</span></i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <!--
+                            <a href="img/gallery-img-01.jpg">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/gallery-tn-01.jpg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Dreamy <span>Honey</span> Now</i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            <a href="img/gallery-img-02.jpg">
+                                <figure class="effect-honey tm-gallery-item">
+                                    <img src="img/gallery-tn-02.jpg" alt="Image" class="img-fluid">
+                                    <figcaption>
+                                        <h2><i>Eighth <span>Honey</span> Now</i></h2>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+
+    <section id="contact" class="tm-section-pad-top tm-parallax-2">
+        <div class="container tm-container-contact">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-4 tm-section-title">Contact Us</h2>
+                    <div class="mb-5 tm-underline">
+                        <div class="tm-underline-inner"></div>
+                    </div>
+                    <p class="mb-5">
+                        Our customer's are our first priority. <br>
+                        One can contact us anytime, anywhere <strong>24*7</strong> and we'll be there to sort it out. <br>
+                        <strong>" BECAUSE YOUR PROBLEM IS OUR PROBLEM "</strong>
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="tel:8882072494" class="tm-contact-item-link">
+                        <i class="fas fa-3x fa-phone mr-4"></i>
+                        <span class="mb-0">+91 888-20-72-494</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="mailto:info.arlors@gmail.com" class="tm-contact-item-link">
+                        <i class="fas fa-3x fa-envelope mr-4"></i>
+                        <span class="mb-0">info.arlors@gmail.com</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="https://www.google.com/maps/place/28%C2%B044'38.3%22N+77%C2%B012'04.2%22E/@28.7440766,77.2012438,19.11z/data=!4m6!3m5!1s0x390cfe243c874e99:0x96266f50b4354411!7e2!8m2!3d28.7439611!4d77.2011691" class="tm-contact-item-link">
+                        <i class="fas fa-3x fa-map-marker-alt mr-4"></i>
+                        <span class="mb-0">Location on Maps</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="https://www.instagram.com/thearlors/" class="tm-contact-item-link">
+                        <i class="fab fa-3x fa-instagram mr-4"></i>
+                        <span class="mb-0">Instagram</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="https://www.facebook.com/apna.arlors.3" class="tm-contact-item-link">
+                        <i class="fab fa-3x fa-facebook mr-4"></i>
+                        <span class="mb-0">facebook</span>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <a href="https://twitter.com/arlors" class="tm-contact-item-link">
+                        <i class="fab fa-3x fa-twitter mr-4"></i>
+                        <span class="mb-0">Twitter</span>
+                    </a>
+                </div>
+            <!--
+                <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+                    <form action="" method="get">
+                        <input name="email" type="email" placeholder="Subscribe your email" class="tm-input" required />
+                        <button type="submit" class="btn tm-btn-submit">Submit</button>
                     </form>
-                  </div>
                 </div>
-              </div>
+            -->
             </div>
-          </div>
         </div>
-      </div>
+        <footer class="text-center small tm-footer">
+            <p class="mb-0">
+                Copyright &copy; 2019 A R L O R S
+            </p>
+        </footer>
     </section>
 
-    <section class="section section-variant-1 bg-default novi-background bg-cover">
-      <div class="container container-wide">
-        <div class="row row-fix justify-content-xl-end row-30 text-center text-xl-left">
-          <div class="col-xl-8">
-            <div class="parallax-text-wrap">
-              <h3>Our Best Tours</h3><span class="parallax-text">Hot tours</span>
-            </div>
-            <hr class="divider divider-decorate">
-          </div>
-          <div class="col-xl-3 text-xl-right">
-            <!--                    <a class="button button-secondary button-nina" href="#">view all tours</a>-->
-          </div>
-        </div>
-        <div class="row row-50">
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/manali.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Manali, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/mussoorie.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Mussoorie, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/goa.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Goa, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/shimla.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Shimla, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/rohtangpass.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Rohtangpass, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 col-xl-4">
-            <article class="event-default-wrap">
-              <div class="event-default">
-                <figure class="event-default-image"><img src="images/haridwar.jpg" alt="" style="width:570px; height:300px" />
-                </figure>
-                <!--                                <div class="event-default-caption"><a class="button button-xs button-secondary button-nina" href="#">learn more</a></div>-->
-              </div>
-              <div class="event-default-inner">
-                <h5><a class="event-default-title" href="#">Haridwar, India</a></h5><span class="heading-5"></span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- our advantages-->
-    <section class="section section-lg bg-gray-lighter novi-background bg-cover text-center">
-      <div class="container container-wide">
-        <h3>our services</h3>
-        <div class="divider divider-decorate"></div>
-        <div class="row row-50 justify-content-sm-center text-left">
-          <div class="col-sm-10 col-md-6 col-xl-3">
-            <article class="box-minimal box-minimal-border">
-              <div class="box-minimal-icon novi-icon mdi mdi-airplane"></div>
-              <p class="big box-minimal-title">Daily Rides</p>
-              <hr>
-              <div class="box-minimal-text text-spacing-sm">At our travel agency, you can book daily rides to any destination. </div>
-            </article>
-          </div>
-          <div class="col-sm-10 col-md-6 col-xl-3">
-            <article class="box-minimal box-minimal-border">
-              <div class="box-minimal-icon novi-icon mdi mdi-map"></div>
-              <p class="big box-minimal-title">Outstation</p>
-              <hr>
-              <div class="box-minimal-text text-spacing-sm">Besides regular tours and excursions, we also offer a variety of outstation rides to different cities and states for the people looking for awesome experiences.</div>
-            </article>
-          </div>
-          <div class="col-sm-10 col-md-6 col-xl-3">
-            <article class="box-minimal box-minimal-border">
-              <div class="box-minimal-icon novi-icon mdi mdi-city"></div>
-              <p class="big box-minimal-title">Hotel Bookings</p>
-              <hr>
-              <div class="box-minimal-text text-spacing-sm">We have collaborated with many hotels across the country ranging from 5-star ones to small hotels located in different states so that you could book a hotel you like.</div>
-            </article>
-          </div>
-          <div class="col-sm-10 col-md-6 col-xl-3">
-            <article class="box-minimal box-minimal-border">
-              <div class="box-minimal-icon novi-icon mdi mdi-beach"></div>
-              <p class="big box-minimal-title">Tailored Summer Tours</p>
-              <hr>
-              <div class="box-minimal-text text-spacing-sm">Our agency provides varied tours including tailored summer tours for people who are searching for an exclusive and memorable vacation.</div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Tips & tricks-->
-    <section class="section section-lg novi-background bg-cover bg-default text-center">
-      <div class="container-wide">
-        <div class="row row-50">
-          <div class="col-sm-12">
-            <h3>Our Hotels</h3>
-            <div class="divider divider-decorate"></div>
-            <!-- Owl Carousel-->
-            <div class="owl-carousel owl-carousel-team owl-carousel-inset" data-items="1" data-md-items="2" data-xl-items="3" data-stage-padding="15" data-loop="true" data-margin="30" data-mouse-drag="false" data-dots="true" data-autoplay="true">
-              <article class="post-blog"><a class="post-blog-image" href="#"><img src="images/graceresort.jpg" alt="" width="570" height="415" /></a>
-                <div class="post-blog-caption">
-                  <div class="post-blog-caption-header">
-                    <ul class="post-blog-tags">
-                      <!--                                            <li><a class="button-tags" href="#">Grace Resort, Manali</a></li>-->
-                    </ul>
-                    <!--
-                                        <ul class="post-blog-meta">
-                                            <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                                        </ul>
--->
-                  </div>
-                  <div class="post-blog-caption-body">
-                    <h5><a class="post-blog-title">Grace Resort, Manali</a></h5>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2019">Feb 27, 2019 at 6:53 pm</time>
-                    <!--                                        <a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>-->
-                  </div>
-                </div>
-              </article>
-              <article class="post-blog"><a class="post-blog-image" href="#"><img src="images/theRockManali.jpg" alt="" width="570" height="415" /></a>
-                <div class="post-blog-caption">
-                  <div class="post-blog-caption-header">
-                    <!--
-                                        <ul class="post-blog-tags">
-                                            <li><a class="button-tags" href="#">Tips</a></li>
-                                        </ul>
-                                        <ul class="post-blog-meta">
-                                            <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                                        </ul>
--->
-                  </div>
-                  <div class="post-blog-caption-body">
-                    <h5><a class="post-blog-title">The Rock Manali, Manali</a></h5>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2019">Feb 27, 2019 at 6:53 pm</time>
-                    <!--                                        <a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>-->
-                  </div>
-                </div>
-              </article>
-              <article class="post-blog"><a class="post-blog-image" href="#"><img src="images/Hotel%20value%20and%20Spa.jpg" alt="" width="570" height="415" /></a>
-                <div class="post-blog-caption">
-                  <div class="post-blog-caption-header">
-                    <!--
-                                        <ul class="post-blog-tags">
-                                            <li><a class="button-tags" href="#">Traveling</a></li>
-                                        </ul>
-                                        <ul class="post-blog-meta">
-                                            <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                                        </ul>
--->
-                  </div>
-                  <div class="post-blog-caption-body">
-                    <h5><a class="post-blog-title">Hotel Value &amp; Spa, Mussoorie</a></h5>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2019">Feb 27, 2019 at 6:53 pm</time>
-                    <!--                                        <a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>-->
-                  </div>
-                </div>
-              </article>
-              <article class="post-blog"><a class="post-blog-image" href="#"><img src="images/phoenx.jpg" alt="" style="width: 570px; height: 410px" /></a>
-                <div class="post-blog-caption">
-                  <div class="post-blog-caption-header">
-                    <ul class="post-blog-tags">
-                      <!--                                            <li><a class="button-tags" href="#">Grace Resort, Manali</a></li>-->
-                    </ul>
-                    <!--
-                                        <ul class="post-blog-meta">
-                                            <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                                        </ul>
--->
-                  </div>
-                  <div class="post-blog-caption-body">
-                    <h5><a class="post-blog-title">Phoenix Resort, Mussoorie</a></h5>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2019">Feb 27, 2019 at 6:53 pm</time>
-                    <!--                                        <a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>-->
-                  </div>
-                </div>
-              </article>
-              <article class="post-blog"><a class="post-blog-image" href="#"><img src="images/sky-light.jpg" alt="" width="570" height="415" /></a>
-                <div class="post-blog-caption">
-                  <div class="post-blog-caption-header">
-                    <ul class="post-blog-tags">
-                      <!--                                            <li><a class="button-tags" href="#">Grace Resort, Manali</a></li>-->
-                    </ul>
-                    <!--
-                                        <ul class="post-blog-meta">
-                                            <li><span>by</span>&nbsp;<a href="#">Ronald Chen</a></li>
-                                        </ul>
--->
-                  </div>
-                  <div class="post-blog-caption-body">
-                    <h5><a class="post-blog-title">Hotel Sky Light Royal Stay , Goa</a></h5>
-                  </div>
-                  <div class="post-blog-caption-footer">
-                    <time datetime="2019">Feb 27, 2019 at 6:53 pm</time>
-                    <!--                                        <a class="post-comment" href="#"><span class="icon novi-icon icon-md-middle icon-gray-1 mdi mdi-comment"></span><span>12</span></a>-->
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-          <!--                    <div class="col-12"><a class="button button-secondary button-nina button-offset-lg" href="#">view all blog posts</a></div>-->
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-lg text-center bg-gray-lighter novi-background bg-cover">
-      <div class="container container-bigger">
-        <h3>testimonials</h3>
-        <div class="divider divider-decorate"></div>
-        <!-- Owl Carousel-->
-        <div class="owl-carousel owl-layout-1" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="false" data-autoplay="true">
-          <article class="quote-boxed">
-            <div class="quote-boxed-aside"><img class="quote-boxed-image" src="images/quote-user-1-210x210.jpg" alt="" width="210" height="210" />
-            </div>
-            <div class="quote-boxed-main">
-              <div class="quote-boxed-text">
-                <p>I wanted to thank you very much for planning the trip to Manali for my girlfriend and me. It was amazing and exceeded my expectations! We had a wonderful time and were very pleased with the accommodations in the hotels . I
-                  appreciate all the effort to get us to the location finally. </p>
-              </div>
-              <div class="quote-boxed-meta">
-                <p class="quote-boxed-cite">Rohit Prajpati</p>
-                <p class="quote-boxed-small">Regular Customer</p>
-              </div>
-            </div>
-          </article>
-          <article class="quote-boxed">
-            <div class="quote-boxed-aside"><img class="quote-boxed-image" src="images/aman.JPG" alt="" width="210" height="210" />
-            </div>
-            <div class="quote-boxed-main">
-              <div class="quote-boxed-text">
-                <p>I had a marvelous time in our travels to Goa. I had just wonderful experiences.I loved the location of the hotel provided by you as I felt like it was only the time we got to feel the real life. The service was amazing and everyone
-                  was very attentive!</p>
-              </div>
-              <div class="quote-boxed-meta">
-                <p class="quote-boxed-cite">Aman Chauhan</p>
-                <p class="quote-boxed-small">Regular Customer</p>
-              </div>
-            </div>
-          </article>
-          <article class="quote-boxed">
-            <div class="quote-boxed-aside"><img class="quote-boxed-image" src="images/quote-user-3-210x210.jpg" alt="" width="210" height="210" />
-            </div>
-            <div class="quote-boxed-main">
-              <div class="quote-boxed-text">
-                <p>Just wanted to say many, many thanks for helping me set up an amazing trip to Mussoorie! My nephew and I had a blast! All of the accommodations were perfect.We have such fond memories and can't thank you enough!</p>
-              </div>
-              <div class="quote-boxed-meta">
-                <p class="quote-boxed-cite">Mohit Singh</p>
-                <p class="quote-boxed-small">Regular Customer</p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-md text-center text-md-left bg-gray-700 novi-background bg-cover">
-      <div class="container container-wide">
-        <div class="row row-fix row-50 justify-content-sm-center">
-          <div class="col-xxl-8">
-            <div class="box-cta box-cta-inline">
-              <div class="box-cta-inner">
-                <h3 class="box-cta-title">Buy a tour without leaving your home</h3>
-                <p>Using our website, you can book any tour just in a couple of clicks.</p>
-              </div>
-              <div class="box-cta-inner"><a class="button button-secondary button-nina" href="#">Book Now</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--      <a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>-->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        function getOffSet() {
+            var _offset = 450;
+            var windowHeight = window.innerHeight;
 
-    <!-- Footer Minimal-->
-    <footer class="section page-footer page-footer-minimal novi-background bg-cover text-center bg-gray-darker">
-      <div class="container container-wide">
-        <div class="row row-fix justify-content-sm-center align-items-md-center row-30">
-          <div class="col-md-10 col-lg-7 col-xl-4 text-xl-left"><a href="index.html">
+            if (windowHeight > 500) {
+                _offset = 400;
+            }
+            if (windowHeight > 680) {
+                _offset = 300
+            }
+            if (windowHeight > 830) {
+                _offset = 210;
+            }
 
-              <!--                    <img class="inverse-logo" src="images/logo-inverse-208x46.png" alt="" width="208" height="46" />-->
-            </a></div>
-          <div class="col-md-10 col-lg-7 col-xl-4">
-            <p class="right">&#169;&nbsp;<span class="copyright-year">2019s</span> All Rights Reserved. Design <span>&amp; </span>powered&nbsp;by&nbsp;<br><span>
-                < </span> <a href="www.ineptdevs.com">ineptdevs</a><a href=""></a><span> /></span></p>
-          </div>
-          <div class="col-md-10 col-lg-7 col-xl-4 text-xl-right">
-            <ul class="group-xs group-middle">
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-facebook" href="#"></a></li>
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-twitter" href="#"></a></li>
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-instagram" href="#"></a></li>
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-google" href="#"></a></li>
-              <li><a class="icon novi-icon icon-md-middle icon-circle icon-secondary-5-filled mdi mdi-linkedin" href="#"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-  <!-- Global Mailform Output-->
-  <div class="snackbars" id="form-output-global"> </div>
-  <!-- Javascript-->
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
+            return _offset;
+        }
 
+        function setParallaxPosition($doc, multiplier, $object) {
+            var offset = getOffSet();
+            var from_top = $doc.scrollTop(),
+                bg_css = 'center ' + (multiplier * from_top - offset) + 'px';
+            $object.css({
+                "background-position": bg_css
+            });
+        }
+
+        // Parallax function
+        // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+        var background_image_parallax = function($object, multiplier, forceSet) {
+            multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+            multiplier = 1 - multiplier;
+            var $doc = $(document);
+            // $object.css({"background-attatchment" : "fixed"});
+
+            if (forceSet) {
+                setParallaxPosition($doc, multiplier, $object);
+            } else {
+                $(window).scroll(function() {
+                    setParallaxPosition($doc, multiplier, $object);
+                });
+            }
+        };
+
+        var background_image_parallax_2 = function($object, multiplier) {
+            multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+            multiplier = 1 - multiplier;
+            var $doc = $(document);
+            $object.css({
+                "background-attachment": "fixed"
+            });
+            $(window).scroll(function() {
+                var firstTop = $object.offset().top,
+                    pos = $(window).scrollTop(),
+                    yPos = Math.round((multiplier * (firstTop - pos)) - 186);
+
+                var bg_css = 'center ' + yPos + 'px';
+
+                $object.css({
+                    "background-position": bg_css
+                });
+            });
+        };
+
+        $(function() {
+            // Hero Section - Background Parallax
+            background_image_parallax($(".tm-parallax"), 0.30, false);
+            background_image_parallax_2($("#contact"), 0.80);
+
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                background_image_parallax($(".tm-parallax"), 0.30, true);
+            }, true);
+
+            // Detect window scroll and update navbar
+            $(window).scroll(function(e) {
+                if ($(document).scrollTop() > 120) {
+                    $('.tm-navbar').addClass("scroll");
+                } else {
+                    $('.tm-navbar').removeClass("scroll");
+                }
+            });
+
+            // Close mobile menu after click 
+            $('#tmNav a').on('click', function() {
+                $('.navbar-collapse').removeClass('show');
+            })
+
+            // Scroll to corresponding section with animation
+            $('#tmNav').singlePageNav();
+
+            // Add smooth scrolling to all links
+            // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 400, function() {
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            // Pop up
+            $('.tm-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+
+            // Gallery
+            $('.tm-gallery').slick({
+                dots: true,
+                infinite: false,
+                slidesToShow: 5,
+                slidesToScroll: 2,
+                responsive: [{
+                        breakpoint: 1199,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+
+    </script>
 </body>
 
 </html>
