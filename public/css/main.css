@@ -88,6 +88,7 @@ a:focus {
 
 .nav-item {
     list-style: none;
+    
 }
 
 .tm-nav-link {
@@ -128,24 +129,24 @@ a:focus {
 #hero {
     background-image: url(../img/background1.jpg);
     background-repeat: no-repeat;
-    background-size: 1400px 1000px;
-    height: 100vh;
-    min-height: 375px;
+    background-size: auto;
+    height: 90vh;
+    /*    min-height: 375px;*/
     position: relative;
 }
 
 
 
 .tm-hero-text-container {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 80%;
     display: flex;
     flex-flow: column;
     justify-content: center;
 }
 
 .tm-hero-text-container-inner {
-    margin-top: -90px;
+    margin-top: 70px;
 }
 
 .tm-hero-title {
@@ -156,10 +157,17 @@ a:focus {
 
 .tm-intro-next {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     left: 0;
     right: 0;
 }
+
+p.tm-hero-subtitle {
+    letter-spacing: 5px;
+    font-weight: 200;
+    text-shadow: 1.9px 0.9px 0.9px #333;
+}
+
 
 /*
 
@@ -500,34 +508,38 @@ p {
 }
 
 @media (min-width: 1200px) {
-  .container {
-    max-width: 1275px;
-  }
+    .container {
+        max-width: 1275px;
+    }
 
-  .tm-container-gallery {
-    max-width: 1290px;
-  }
+    .tm-container-gallery {
+        max-width: 1290px;
+    }
 
-  .tm-container-contact {
-    max-width: 1063px;
-  }
+    .tm-container-contact {
+        max-width: 1063px;
+    }
+
     .tm-intro-text-container {
-    padding-left: 5px;
-    padding-top: 0px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-    #pricing .col-lg-6{
+        padding-left: 5px;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #pricing .col-lg-6 {
         padding-left: 0px
     }
-    #pricing .row{
+
+    #pricing .row {
         margin-left: 0px;
         padding: 0px;
     }
 }
 
 @media (max-width: 991px) {
+
+    /*
   .tm-intro-text-container {
     padding-left: 5px;
     padding-top: 0px;
@@ -535,16 +547,20 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-    table{
-        max-width: 400px
+*/
+    table {
+        max-width: 400px;
     }
+
+    /*
     #pricing .col-lg-6{
         padding-left: 0px
     }
     #pricing .row{
         margin-left: 0px
     }
-/*
+*/
+    /*
   .tm-intro-img {
     display: block;
     margin-left: auto;
@@ -552,56 +568,56 @@ p {
   }
 */
 
-.tm-btn-submit {
-    margin-left: 0;
-    margin-top: 20px;
-}
+    .tm-btn-submit {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 767px) {
-  .tm-btn-submit {
-    margin-left: 20px;
-    margin-top: 0;
-  }
+    .tm-btn-submit {
+        margin-left: 20px;
+        margin-top: 0;
+    }
 
-  .navbar-nav {
-    max-width: 200px;
-    text-align: right;
-  }
+    .navbar-nav {
+        max-width: 200px;
+        text-align: right;
+    }
 
-  .navbar-collapse {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 3px;
-  }
+    .navbar-collapse {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 3px;
+    }
 
-  .navbar-collapse .nav-link {
-    color: #8f8f8f;
-  }
+    .navbar-collapse .nav-link {
+        color: #8f8f8f;
+    }
 }
 
 @media (max-width: 480px) {
-  .tm-gallery-container {
-    max-width: 220px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .tm-gallery-container {
+        max-width: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-  .slick-dots li {
-    margin: 0 8px;
-  }
+    .slick-dots li {
+        margin: 0 8px;
+    }
 
-  .tm-gallery-item {
-    margin: 0;
-  }
+    .tm-gallery-item {
+        margin: 0;
+    }
 }
 
 @media (max-width: 420px) {
-  .tm-btn-submit {
-    display: block;
-    margin-left: 0;
-    margin-top: 20px;
-  }
+    .tm-btn-submit {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 
 
@@ -627,19 +643,22 @@ section#work p.tm-work-description {
     color: #ffab91;
     font-size: 17px
 }
+
 .table li.nav-item a.nav-link {
-    
-    color:#ffab91;
+
+    color: #ffab91;
 }
+
 .table li.nav-item a.active {
     background-color: #ffab91;
-    color:#ffffff;
+    color: #ffffff;
     padding: 5px 20px;
     letter-spacing: 3px;
     border-radius: 20px 20px 0px 20px;
 
 }
-#aboutus{
+
+#aboutus {
     max-width: 1400px;
     margin: auto;
 }
@@ -681,28 +700,41 @@ section#work p.tm-work-description {
 #booking .booking {
     display: flex;
     margin: auto;
-    justify-content: center;
+    /*    justify-content: center;*/
     max-width: 1200px;
 }
+
+/*
 #booking .tm-contact-item{
     width: 35%;
 }
+*/
+#booking .giv-call {
+    width: 50%;
+    padding-left: 50px;
+}
 
 #booking .giv-call h1 {
-    width: 65%;
+    width: 90%;
     font-size: 3.5em;
-    margin-left: 30px;
+    margin-left: 20px;
     padding-bottom: 10px;
-    border-bottom: 10px solid #ffab91;
+    /*    border-bottom: 10px solid #ffab91;*/
+}
+
+.contact-buttons {
+    margin: auto 40px;
+    padding: 0px;
 }
 
 #booking .tm-contact-item {
-    padding: 30px;
+    padding: 0px;
     font-size: 35px;
-    justify-content: center;
+    /*    justify-content: center;*/
 
 }
-#booking .tm-contact-item span.click-book p{
+
+#booking .tm-contact-item span.click-book p {
     color: #ffab91;
 }
 
@@ -710,18 +742,23 @@ section#work p.tm-work-description {
     border: 5px solid #ffab91;
     /*    background-color: #ffab91;*/
     color: #ffab91;
-    padding: 10px 50px;
+    padding: 10px 25px;
     border-radius: 100px;
-    
-}
-#booking .tm-contact-item a{
-    width: 100%;
-    margin-top: 50px;
-}
-#booking .tm-contact-item span.click-book i {
-    color: #ffab91;
+    display: flex;
 }
 
+#booking .tm-contact-item a {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#booking .tm-contact-item span.click-book i {
+    margin: auto;
+    color: #ffab91;
+}
+#booking .tm-contact-item span.click-book img{
+    height: 40px
+}
 #booking .tm-contact-item span.click-book:hover {
     color: #8f8f8f;
 }
@@ -731,14 +768,15 @@ section#work p.tm-work-description {
     border: 5px solid #8f8f8f;
 
 }
-#booking .tm-contact-item{
+
+#booking .tm-contact-item {
     margin: 0px;
     padding: 0px;
 
-    
+
 }
 
-table{
+table {
     max-width: 1000px;
 }
 
@@ -754,18 +792,20 @@ table{
 }
 */
 #pricing .tm-intro-text-container {
-    padding: 70px 20px 50px 20px;
+    padding: 70px 0px 50px 0px;
     margin: auto;
 }
 
+/*
 #pricing .col-lg-6 {
     margin: 0px;
     padding: 0px
 }
-@media screen and (max-width: 1100px){
+*/
+@media screen and (max-width: 1100px) {
     #booking .tm-contact-item span.click-book {
-    padding: 0px 10px;
-    border-radius: 100px;
+        padding: 0px 10px;
+        border-radius: 100px;
         font-size: 35px;
     }
 
@@ -784,22 +824,26 @@ table{
     .mobile-app img.ios {
         width: 150px;
     }
+
     #booking .giv-call h1 {
-    margin-left: 60px;
-    font-size: 2.8em;
-    
-   }
+        margin-left: 60px;
+        font-size: 2.8em;
+
+    }
+
     #booking .tm-contact-item span.click-book {
-    padding: 0px 10px;
-    border-radius: 100px;
+        padding: 5px 10px;
+        border-radius: 100px;
         font-size: 25px;
-}
+    }
 
 }
+
 @media screen and (max-width: 740px) {
-    .phone img{
+    .phone img {
         height: 200px;
     }
+
     .mobile-app .appstore {
         padding-top: 60px;
         margin: 0px 50px;
@@ -812,34 +856,61 @@ table{
     .mobile-app img.ios {
         width: 80px;
     }
-     #booking .giv-call h1 {
-    
-    font-size: 2em;
-    
-   }
-   #booking .tm-contact-item span.click-book{
-    height: 50px;
-    padding: 0px 10px 10px 5px;
-    border-radius: 50px;
-    font-size: 17px;
+
+    #booking .giv-call h1 {
+
+        font-size: 2em;
+
     }
+
+    #booking .tm-contact-item span.click-book {
+        height: 50px;
+        padding: 10px 20px 2\30px 10px;
+        border-radius: 50px;
+        font-size: 17px;
+        text-align: center;
+        line-height: normal;
+    }
+    #booking .tm-contact-item span.click-book img{
+        margin: auto;
+        height: 20px;
+        
+    }
+
+    #booking .tm-contact-item span.click-book i {
+        margin: auto
+    }
+
+    #booking .giv-call h1 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .contact-buttons {
+        margin-left: 50px;
+    }
+    
 }
+
 @media screen and (max-width: 504px) {
-    .app-notice{
+    .app-notice {
         padding: 0px
     }
-    .phone img{
+
+    .phone img {
         height: 170px;
         margin-left: 20px
     }
+
     .mobile-app .appstore {
         padding-top: 50px;
         margin: 0px 10px;
     }
 
-    .mobile-app .appstore h2.comingsoon{
+    .mobile-app .appstore h2.comingsoon {
         font-size: 20px;
     }
+
     .mobile-app img.android {
         width: 100px;
     }
@@ -847,33 +918,84 @@ table{
     .mobile-app img.ios {
         width: 80px;
     }
+
+    #booking .giv-call {
+        padding-left: 30px;
+    }
+
     #booking .giv-call h1 {
-    
-    font-size: 1.1em;
-    
-   }
-    #booking .tm-contact-item span.click-book{
-    padding: 7px 10px 0px 10px;
-    border-radius: 50px;
-    font-size: 11px;
-    
-}
-    #booking .tm-contact-item span.click-book i{
-        margin: 0px;
         padding: 0px;
+        margin: 0px;
+        font-size: 1.7em;
+
+    }
+
+    #booking .tm-contact-item span.click-book {
+        margin: auto;
+        padding-bottom: 10px;
+        border-radius: 50px;
+        font-size: 20px;
+        justify-content: center;
+
+    }
+
+    #booking .tm-contact-item span.click-book i {
+        margin: auto;
+    }
+
+    #booking .tm-contact-item {
+        width: 45%;
+    }
+
+    #booking .giv-call h1 {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p.tm-hero-subtitle {
+        letter-spacing: 0px;
+        font-weight: 100;
+        /*    text-shadow: 1.9px 0.9px 0.9px #333;*/
+    }
+
+    .tm-hero-title {
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 3px #333;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .contact-buttons{
+        margin: 10px;
         
     }
-    #booking .tm-contact-item{
-    width: 45%;
-    }
-
-    #booking .giv-call h1 {
-    width: 55%;
+    #booking h1.call{
+        font-size: 1.5em
     }
 }
-
-p.tm-hero-subtitle{
-    letter-spacing: 5px;
-    font-weight: 200;
-    text-shadow: 1.9px 0.9px 0.9px #333;
+/*
+section.happy-customer{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.blocky{
+    margin: auto;
+    padding: 20px;
+    
+}
+.blocky .h3{
+    color: #ffa900;
+    font-weight: bold;
+    
+}*/
+.col-lg-4 {
+    text-align: center;
+}
+p.note{
+    font-size: 11px;
+    color: #818181
 }
